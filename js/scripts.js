@@ -42,13 +42,23 @@ $(document).ready(function() {
     var veggie = $("select#veggie").val();
     var meat = $("select#meat").val();
     var pizzaNumber = parseInt($("select#number").val());
+    var orderName = $("input#ordername").val();
     var newPizza = new Pizza(size, veggie, meat);
     var grandTotal = newPizza.totalPizza() * pizzaNumber;
 
-    $(".display").empty();
-    $(".display").show();
-    $(".display").append("<li>Your order for: " + "</li>");
-    $(".display").append("<li>" + size + " + " + veggie + " + " + meat + " x" + pizzaNumber + " = $" + grandTotal + "</li>");
+    $("ul.orderslist").append("<li><span class='orders'>" + orderName + "</span></li>");
+
+    $("input#ordername").val("");
+    $("select#size").val("1");
+    $("select#veggie").val("1");
+    $("select#meat").val("1");
+
+    $(".orders").last().click(function(){
+      $(".display").empty();
+      $(".display").show();
+      $(".display").append("<li>Your order for: " + orderName + "</li>");
+      $(".display").append("<li>" + size + " + " + veggie + " + " + meat + " x" + pizzaNumber + " = $" + grandTotal + "</li>");
+  });
 
     event.preventDefault();
   });

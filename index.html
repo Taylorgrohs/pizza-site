@@ -9,72 +9,80 @@
   </head>
   <body>
 
-          <div class="container">
-            <div class="jumbotron">
-            <h1>Tay's Pizzaria</h1>
+    <div class="container">
+      <div class="jumbotron">
+      <h1>Tay's Pizzaria</h1>
+     </div>
+    </div>
+    <div class="background">
+      <div class="container">
+        <h1>Please make your selections</h1>
+      </div>
+     <div class="container">
+       <form>
+        <div class="form-group">
+          <label for="order-name">Name for order </label>
+          <input type="text" id="ordername">
+        </div>
+         <div class="row">
+           <div class="col-sm-3">
+           <h3>Please select the size of your Pizza</h3>
+           <select id="size">
+             <option value="1">Please select an option</option>
+             <option value="Small">Small $6</option>
+             <option value="Medium">Medium $8</option>
+             <option value="Large">Large $10</option>
+             <option value="Extra-Large">Extra-Large $15</option>
+           </select>
            </div>
-          </div>
-          <div class="background">
-            <div class="container">
-              <h1>Please make your selections</h1>
-            </div>
-           <div class="container">
-             <form>
-               <div class="row">
-                 <div class="col-sm-3">
-                 <h3>Please select the size of your Pizza</h3>
-                 <select id="size">
-                   <option value="">Please select an option</option>
-                   <option value="Small">Small $6</option>
-                   <option value="Medium">Medium $8</option>
-                   <option value="Large">Large $10</option>
-                   <option value="Extra-Large">Extra-Large $15</option>
-                 </select>
-                 </div>
-                 <div class="col-sm-3">
-                 <h3>Please select a veggie topping</h3>
-                 <select id="veggie">
-                   <option value="">Please select an option</option>
-                   <option value="Mushrooms">Mushrooms +$4 (Premium item)</option>
-                   <option value="Onions">Onions +$2</option>
-                   <option value="Pineapple">Pineapple +$2</option>
-                   <option value="Olives">Olives +$2</option>
-                 </select>
-                 </div>
+           <div class="col-sm-3">
+           <h3>Please select a veggie topping</h3>
+           <select id="veggie">
+             <option value="1">Please select an option</option>
+             <option value="Mushrooms">Mushrooms +$4 (Premium item)</option>
+             <option value="Onions">Onions +$2</option>
+             <option value="Pineapple">Pineapple +$2</option>
+             <option value="Olives">Olives +$2</option>
+           </select>
+           </div>
 
 
-                 <div class="col-sm-3">
-                   <h3>Please select a meat topping</h3>
-                   <select id="meat">
-                     <option value="">Please select an option</option>
-                     <option value="Pepperoni">Pepperoni +$2</option>
-                     <option value="Sausage">Sausage +$2</option>
-                     <option value="Bacon">Bacon +$4 (Premium item)</option>
-                     <option value="Chicken">Chicken +$2</option>
-                   </select>
-                 </div>
+           <div class="col-sm-3">
+             <h3>Please select a meat topping</h3>
+             <select id="meat">
+               <option value="1">Please select an option</option>
+               <option value="Pepperoni">Pepperoni +$2</option>
+               <option value="Sausage">Sausage +$2</option>
+               <option value="Bacon">Bacon +$4 (Premium item)</option>
+               <option value="Chicken">Chicken +$2</option>
+             </select>
+           </div>
 
-                 <div class="col-sm-3">
-                   <h3>Please select how many</h3>
-                   <select id="number">
-                     <option value="1">1</option>
-                     <option value="2">2</option>
-                     <option value="3">3</option>
-                     <option value="4">4</option>
-                   </select>
-                 </div>
+           <div class="col-sm-3">
+             <h3>Please select how many</h3>
+             <select id="number">
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+             </select>
+           </div>
 
-                 </div>
-                <button type="submit"class="btn btn-primary btn">Make my Pizza!</button>
-              </div>
-             </form>
-             <div class="container ticket">
-              <div class="backgroundimg">
-                <ul class="display">
+           </div>
+          <button type="submit"class="btn btn-primary btn">Make my Pizza!</button>
+        </div>
+        </form>
+        <div class="names">
+          <h3>Orders:</h3>
+          <ul class="orderslist">
 
-                </ul>
-              </div>
-             </div>
-         </div>
+          </ul>
+        </div>
+        <div class="container total">
+          <ul class="display">
+
+          </ul>
+      </div>
+    </div>
   </body>
 </html>

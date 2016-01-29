@@ -22,8 +22,22 @@ button {
 
 }
 
-.total {
-  background-color: black;
+.names {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.orders {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.orders:hover {
+  text-decoration: underline;
+}
+
+.orderslist {
+  list-style: none;
 }
 
 .display {
