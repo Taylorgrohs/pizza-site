@@ -1,4 +1,4 @@
-# _Ping Pong Test_
+# _Pizza Site_
 
 #### _HTML, CSS, Bootstrap, Javascript/jQuery project for Epicodus, 01.22.2016_
 
@@ -6,11 +6,11 @@
 
 ## Description
 
-_When you put a number into the application it will return every number counting up to the inputed number replacing numbers divisible by 3 with ping, numbers divisible by 5 with pong and numbers divisible by 15 with pingpong._
+_You can place an order for a two topping pizza and it will store your order. Make as many orders as you would like!._
 
 ## Setup/Installation Requirements
 
-* To view the site go to [taylorgrohs.github.io/ping-pong](http://taylorgrohs.github.io/ping-pong)
+* To view the site go to [taylorgrohs.github.io/pizza-site](http://taylorgrohs.github.io/pizza-site)
 
 
 ## Support and contact details

@@ -23,13 +23,13 @@ button {
 }
 
 .names {
-  margin-left: 25px;
+  margin-left: 50px;
   margin-top: 25px;
 }
 
 .orders {
   cursor: pointer;
-  color: #0088cc;
+  color: black;
 }
 
 .orders:hover {
@@ -37,14 +37,14 @@ button {
 }
 
 .orderslist {
-  list-style: none;
+  list-style: decimal;
 }
 
 .display {
   display: none;
   list-style: none;
-  margin-left: 30%;
+
   text-align: center;
-  margin-right: 30%;
   font-weight: bold;
+  margin-top: 25px;
 }
