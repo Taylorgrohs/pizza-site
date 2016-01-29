@@ -1,0 +1,25 @@
+.jumbotron {
+  text-align: center;
+  background-image: url(../img/Pizza1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #c0392b;
+  color: #ecf0f1;
+}
+
+body {
+  background-color: #e67e22;
+  background-image: url(../img/pizza2.jpg);
+}
+
+.background {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+  margin-top: 20px;
+}
+
+.total {
+  background-color: black;
+}
