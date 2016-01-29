@@ -46,10 +46,10 @@ $(document).ready(function() {
     var grandTotal = newPizza.totalPizza() * pizzaNumber;
 
     $(".display").empty();
-    $(".display").append("<li class='sizeli'>" + size + "</li>");
-    $(".display").append("<li class='veggieli'>" + veggie + "</li>");
-    $(".display").append("<li class='meatli'>" + meat + "</li>");
-    $(".display").append("<li class='sizeli'> $" + grandTotal + "</li>");
+    $(".display").show();
+    $(".display").append("<li>Your order for: " + "</li>");
+    $(".display").append("<li>" + size + " + " + veggie + " + " + meat + " x" + pizzaNumber + " = $" + grandTotal + "</li>");
+
     event.preventDefault();
   });
 });
